@@ -1,6 +1,8 @@
 import React from "react";
-import { BrowserRouter as Router } from "react-router-dom";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Header from "../Components/Header";
+// Page
+import Home from "../Pages/Home";
 
 function NavigationRoutes() {
   return (
@@ -8,6 +10,9 @@ function NavigationRoutes() {
       <div>
         <Header />
       </div>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+      </Routes>
     </Router>
   );
 }
