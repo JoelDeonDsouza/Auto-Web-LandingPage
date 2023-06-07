@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&display=swap");
+
+.homeContainer {
+  padding-top: 5rem;
+}
+.sectionContainer {
+  padding: 0 1.5rem;
+  text-align: center;
+  display: grid;
+  gap: 2rem;
+}
+.heroText {
+  .titleSub {
+    font-size: 14px !important;
+    color: #526d82;
+    opacity: 0.5;
+  }
+  .title {
+    font-size: 60px !important;
+    color: #213555;
+    font-weight: 700;
+    font-family: "Fira Sans", sans-serif;
+  }
+  .btnContainer {
+    justify-content: center;
+    margin-left: 15px;
+    display: inline-block;
+  }
+  .btnOne {
+    margin-right: 20px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    border: none;
+    cursor: pointer;
+  }
+  .btn {
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    background-color: #a0d8b3;
+    border: none;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background-color: aquamarine;
+  }
+  .btnOne:hover {
+    background-color: aquamarine;
+  }
+  .heroImage {
+    margin: auto;
+  }
+}
