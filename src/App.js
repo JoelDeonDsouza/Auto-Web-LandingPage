@@ -20,7 +20,7 @@ function App() {
       <PresentationControls
         speed={1.5}
         global
-        zoom={.5}
+        zoom={10}
         polar={[-0.1, Math.PI / 4]}
       >
         <Stage  environment={"sunset"}>
