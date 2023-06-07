@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&display=swap");
+
+.SearchMainContainer {
+  padding: 2rem 0;
+}
+.titleSearch {
+  color: #526d82;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Fira Sans", sans-serif;
+  text-align: center;
+  line-height: 1.5rem;
+}
+.searchFilter {
+  gap: .5rem;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+input{
+  padding: 6px 10px; 
+  outline: none;
+  border-radius: 50px;
+  border: 1.5px solid rgba(10, 3, 64, 0.9);
+}
+input:focus{
+  border: 1.5px solid rgba(47, 137, 239, 0.9);
+}
+.rightMargin{
+  margin-right: 12px;
+}
+.btn2{
+  justify-content: center;
+  width: 8%;
+  height: 35px;
+  border-radius: 50px;
+  border:none;
+  cursor: pointer;
+  background-color: #F6F1F1;
+}
+.btn2:hover{
+  background-color: aquamarine;
+}
+.imgIcon{
+  width: 18px;
+  margin-right: 6px;
+}
